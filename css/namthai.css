@@ -1,0 +1,83 @@
+/* NamThai css */
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Regular.eot');
+	src: local('Roboto-Regular'), local('Roboto'), url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+#title {
+	font-family: Great Vibes;
+	font-size: 5em;
+	text-align: center;
+	color: rgb(171,197,160);
+}
+
+#titleparallax {
+	height: 120px;
+}
+
+#topcontainer {
+	display: flex;
+	height: 300px;
+	margin-top: 10%;
+	background-color: rgba(171,197,160,0.5);
+}
+
+#tcelements {
+	margin: auto auto;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.background-img { 
+    height: 600px; 
+    background: url("../pictures/cove.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-wrapper {
+	background-color: rgba(171,197,160,0.9);
+	font-size: em;
+}
+
+.light-green-text {
+	font-family: Great Vibes;
+}
+
+.s10 {
+	font-size: 2em;
+}
+
+.s12 {
+	font-size: 1em;
+}
+
+.center {
+	vertical-align: middle;
+}
+
+.footertext {
+	font-size: 1em;
+}
+
+.footertext2 {
+	font-size: 0.8rem;
+}
+
+#footer {
+	background-color: rgba(171,197,160,0.9);
+}
+
+
