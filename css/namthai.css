@@ -17,15 +17,52 @@
 	height: 120px;
 }
 
+#topparallax {
+	height: 1000px;
+}
+
 #topcontainer {
 	display: flex;
 	height: 300px;
 	margin-top: 10%;
-	background-color: rgba(1,84,1,0.5);
+	background-color: rgba(1,84,1,0.4);
+}
+
+#menucontainer {
+	display: flex;
+	height: 1000px;
+	margin-top: 10%;
+	background-color: rgba(1,84,1,0.4);
 }
 
 #tcelements {
 	margin: auto auto;
+}
+
+#menuelements {
+	width: 100%;
+}
+
+#menutabs {
+	color: white;
+	width: 100%;
+}
+
+.tabs .indicator {
+	color: white !important;
+	background-color: white !important;
+}
+
+.tabs .tab a.active {
+  color: rgba(255,255,255,1) !important;
+}
+
+.tabs .tab a:hover {
+  color: rgba(255,255,255,1) !important;
+}
+
+.tabs .tab a {
+  color: rgba(255,255,255,0.6) !important;
 }
 
 body {
@@ -38,8 +75,31 @@ main {
     flex: 1 0 auto;
 }
 
+h4 {
+	font-family: Great Vibes;
+	text-decoration: underline;
+}
+
+.menutext {
+	font-size: 0.8rem;
+	text-align: left;
+}
+
+b {
+	font-size: 0.9rem;
+}
+
 .background-img { 
-    height: 600px; 
+    height: 700px; 
+    background: url("../pictures/cove.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-imgmenu { 
+    height: 1200px; 
     background: url("../pictures/cove.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
