@@ -6,34 +6,59 @@
 	src: local('Roboto-Regular'), local('Roboto'), url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway/Raleway-Regular.ttf')  format('truetype');
+ }
+
+@font-face {
+  font-family: 'Raleway-bold';
+  src: url('../fonts/Raleway/Raleway-bold.ttf')  format('truetype');
+ }
+
 #title {
 	font-family: Great Vibes;
 	font-size: 5em;
 	text-align: center;
-	color: rgb(1,84,1);
+	color: #e0e0e0;
+	background-color: rgba(0,0,0,0);
 }
 
-#titleparallax {
-	height: 120px;
+#stupid {
+	color: black !important;
+}
+
+.titletop {
+	background-color: rgba(0,0,0,0) !important;
+	padding-top: 2% !important;
+}
+
+.toptext {
+	font-size: 2.8em;
+	/*
+	color: rgb(153,235,153);*/
+	color: #e0e0e0;
 }
 
 #topparallax {
 	height: 1000px;
 }
 
+#topmenuparallax {
+	height: 2000px;
+}
+
 #topcontainer {
 	display: flex;
 	height: 300px;
-	margin-top: 10%;
-	background-color: rgba(1,84,1,0.4);
+	position: relative;
+  	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+	background-color: rgba(1,84,1,0);
 }
 
-#menucontainer {
-	display: flex;
-	height: 1000px;
-	margin-top: 10%;
-	background-color: rgba(1,84,1,0.4);
-}
 
 #tcelements {
 	margin: auto auto;
@@ -44,31 +69,62 @@
 }
 
 #menutabs {
-	color: white;
+	color: black;
+	width: 100%;
+	margin-top: 10%;
+}
+
+.submenutabs {
+	color: black;
 	width: 100%;
 }
 
+#mainpart {
+	background-color: #e0e0e0;
+	width: 100%;
+	height: 150vh;
+}
+
+#mainparttext {
+	position: relative;
+  	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#menupart {
+	background-color: #e0e0e0;
+	width: 100%;
+	height: 500vh;
+}
+
+#menuparttext {
+	color: black !important;
+}
+
 .tabs .indicator {
-	color: white !important;
-	background-color: white !important;
+	color: black !important;
+	background-color: black !important;
 }
 
 .tabs .tab a.active {
-  color: rgba(255,255,255,1) !important;
+  color: rgba(0,0,0,1) !important;
 }
 
 .tabs .tab a:hover {
-  color: rgba(255,255,255,1) !important;
+  color: rgba(0,0,0,1) !important;
 }
 
 .tabs .tab a {
-  color: rgba(255,255,255,0.6) !important;
+  color: rgba(0,0,0,0.6) !important;
 }
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Raleway' !important;
 }
 
 main {
@@ -80,17 +136,41 @@ h4 {
 	text-decoration: underline;
 }
 
-.menutext {
-	font-size: 0.8rem;
-	text-align: left;
+nav {
+	background-color: rgba(0,0,0,0.0) !important;
+	border-bottom: 1px solid black;
 }
+
+ul, li, a {
+	color: #e0e0e0;
+}
+
+.menutitle {
+	font-family: 'Raleway-bold';
+	font-size: 2em;
+	color: black;
+	text-decoration: underline;
+	width: 100%;
+}
+
+.submenutitle {
+	font-size: 1.5em;
+	float: left;
+}
+
+.menutext {
+	font-family: 'Raleway';
+	font-size: 0.9rem;
+	color: black;
+}
+
 
 b {
 	font-size: 0.9rem;
 }
 
 .background-img { 
-    height: 700px; 
+    height: 800px; 
     background: url("../pictures/cove.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -99,7 +179,7 @@ b {
 }
 
 .background-imgmenu { 
-    height: 1200px; 
+    height: 2000px; 
     background: url("../pictures/cove.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,20 +188,11 @@ b {
 }
 
 .nav-wrapper {
-	background-color: rgba(1,84,1,1);
-	font-size: em;
+	background-color: rgba(0,0,0,0); 
 }
 
-.light-green-text {
-	font-family: Great Vibes;
-}
-
-.s10 {
-	font-size: 2em;
-}
-
-.s12 {
-	font-size: 1em;
+#navigation {
+	background-color: rgba(0,0,0,0);
 }
 
 .center {
@@ -130,14 +201,31 @@ b {
 
 .footertext {
 	font-size: 1em;
+	color: black !important;
 }
 
 .footertext2 {
 	font-size: 0.8rem;
+	color: black !important;
+}
+
+.subtext {
+	font-size: 0.9rem;
+	font-family: 'Raleway-bold';
+}
+
+.headtext {
+	font-size: 3em;
+	font-family: 'Raleway-bold';
+	text-decoration: underline;
+}
+
+.sidetext {
+	color: black !important;
 }
 
 #footer {
-	background-color: rgba(1,84,1,1);
+	background-color: #c9c9c9;
 }
 
 

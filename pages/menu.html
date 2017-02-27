@@ -12,15 +12,20 @@
 <script src="../js/materialize.js"></script>
 <script src="../js/materialize.min.js"></script>
 <script src="../js/namthai.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta name="viewport" content="width=device-width, height=device-height initial-scale=1">
 
 </head>
 
 <body class="light-green lighten-5">
 
+<div class="background-img">
+
+<div class="titletop" style="background-color: rgba(0,0,0,0.3) !important;">
+
 <h1 id="title">NamThai</h1>
 
-      <nav class="light-green">
+      <nav>
     <div class="nav-wrapper">
       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
       <div class="brand-logo center">
@@ -29,80 +34,561 @@
         <li><a href="aboutus">About Us</a></li>
         <li><a href="contactus">Contact Us</a></li>
         <li class="active"><a href="menu">Menu</a></li>
-        <li><a href="events">Events</a></li>
+        <li><a href="notice">Notice</a></li>
         <li><a href="gallery">Gallery</a></li>
       </ul>
       </div>
       </div>
       </nav>
       <ul class="side-nav" id="slide-out">
-        <li><a href="../index">Home</a></li>
-        <li><a href="aboutus">About Us</a></li>
-        <li><a href="contactus">Contact Us</a></li>
-        <li class="active"><a href="menu">Menu</a></li>
-        <li><a href="events">Events</a></li>
-        <li><a href="gallery">Gallery</a></li>
+        <li><a href="../index" style="color: black !important;">Home</a></li>
+        <li><a href="aboutus" style="color: black !important;">About Us</a></li>
+        <li><a href="contactus" style="color: black !important;">Contact Us</a></li>
+        <li class="active"><a href="menu" style="color: black !important;">Menu</a></li>
+        <li><a href="notice" style="color: black !important;">Notice</a></li>
+        <li><a href="gallery" style="color: black !important;">Gallery</a></li>
       </ul>
+</div>
 
-<div class="background-imgmenu">
 <div id="pagecontainer">
-<div class="parallax-container" id="topparallax">
-<div id="menucontainer">
-<div id="menuelements" class="col s12">
-
-
+  <div class="parallax-container">
+    <div id="topcontainer">
+      <div id="tcelements" style="font-family: 'Raleway-bold' !important; background-color: rgba(0,0,0,0.2); border: 1px solid black;">
+        <b><h1 class="header col s3 center toptext">The NamThai Menu</h1>
         <div class="row center">
-          <div class="row">
-            <div class="col s12 white-text">
-              <ul id="menutabs" class="tabs" style="background-color: rgba(0,0,0,0); color: white !important;">
-                <li class="tab col s4"><a class="active" href="#lunch-menu">Lunch Menu</a></li>
-                <li class="tab col s4"><a href="#dinner">Dinner</a></li>
-                <li class="tab col s4"><a href="#drinks">Drinks</a></li>
-              </ul>
-            </div>
+          <h5 class="header col s6 push-s3" style="color:#e0e0e0;">Please read our full lunch, a la carte, dessert and drinks menu's below:</h5></b>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div id="lunch-menu" class="col s12 text-center">
-              <div class="row">
-                <div class="col s12 white-text">
-                  <ul class="submenutabs tabs" style="background-color: rgba(0,0,0,0); color: white !important;"">
-                    <li class="tab col s6"><a href="#set7">Main Set lunch</a></li>
-                    <li class="tab col s6"><a href="#sets">Other Lunch Set Meals</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+<div class="container col s12" id="menupart">
+  <div class="container col s12" id="menuparttext">
+    <div id="menucontain">
+      <div id="menuelements menuborder" class="col s12">
+        <div class="row center">
+    <div class="row">
+      <div class="col s12">
+        <ul id="menutabs" class="tabs" style="background-color: rgba(0,0,0,0); color: black !important;">
+          <li class="tab col s3"><a href="#lunch-menu" style="color: black !important;">Lunch Menu</a></li>
+          <li class="tab col s3"><a class="active" href="#dinner" style="color: black !important;">A la carte</a></li>
+          <li class="tab col s3"><a href="#dessert" style="color: black !important;">Desserts</a></li>
+          <li class="tab col s3"><a href="#drinks" style="color: black !important;">Drinks</a></li>
+        </ul>
+      </div>
 
-            <div id="dinner" class="col s12 text-center">
-              <div class="row">
-                <div class="col s12 white-text">
-                  <ul class="submenutabs tabs" style="background-color: rgba(0,0,0,0); color: white !important;"">
-                    <li class="tab col s4"><a href="#starters">Starters</a></li>
-                    <li class="tab col s4"><a href="#mains">Mains</a></li>
-                    <li class="tab col s4"><a href="#setmeals">Set Meals</a></li>                 
-                  </ul>
-                </div>
-              </div>
-            </div>
+      <div id="lunch-menu" class="col s12 text-center">
+        <div class="row">
+          <div class="col s12" id="menu-row">
+            <ul class="submenutabs tabs" style="background-color: rgba(0,0,0,0); color: black !important;"">
+              <li class="tab col s6"><a href="#set7" style="color: black !important;">Main Set lunch</a></li>
+              <li class="tab col s6"><a href="#sets" style="color: black !important;">Other Lunch Set Meals</a></li>
+            </ul>
+          </div>
+          <div class="container" id="set7"> 
+                  <h1 class="menutitle" style="float: left; width: 50%;">Starters</h1><h1 class="menutitle" style="float: right; width: 50%;">£6.50 per person</h1>
+                  <br>
+                  <p class="menutext center">
+                    <b style="font-size: 1rem">Spring rolls (V):<br></b>
+                    Deep-fried spring rolls stuffed with vegetables, glass noodles, fungi and spices. Served with plum sauce.<br><br>
+                    <b style="font-size: 1rem">Tow Hoo Tord (V):<br></b>
+                    Deep-fried tofu dusted with garlic and shallot flakes. Served with peanut sauce.<br><br>
+                    <b style="font-size: 1rem">Na Moo:<br></b>
+                    Pork and prawn toast served with sweet and sour sauce.<br><br>
+                    <b style="font-size: 1rem">Tom Yum Hed:<br></b>
+                    Hot, sour soup with Thai herbs and spices.
+                  </p>
+                  <h1 class="menutitle" style="float: left;">Mains</h1>
+                  <br>
+                  <p class="menutext center">
+                    <b style="font-size: 1rem">Special Fried Rice:<br></b>
+                    Fried rice with chicken, egg, Thai soy sauce, garlic, spring onions, tomato & special spices.<br><br>
+                    <b style="font-size: 1rem">Pad Thai:<br></b>
+                    Stir-fry of egg, rice noodles, crisp bean sprouts, spring onions and crushed peanuts.<br><br>
+                    <b style="font-size: 1rem">Fried Rice-Noodles with Thai basil:<br></b>
+                    Stir-fry of rice noodles mixed with pork, onions, Thai soy sauce, tomato, Thai basil, and selected spices.<br><br>
+                     
+                    Fried Rice with Chilli and Thai Basil<br>
+                    Yellow Chicken Curry served with egg fried/steamed rice<br>
+                    Green Chicken or Beef Curry with steamed rice. 
+                  </p>
+          </div>
+          <div class="container" id="sets">
+          <br><br>
+                  <h1 class="menutitle">Set Meals</h1>
+                  <p class="menutext">
+                    <b style="font-size: 1rem">Set 1 (£8.95):<br></b>
+                      · Chicken Satay<br>
+                      · Green Curry with Chicken<br>
+                      · Stir fried mixed vegetable<br>
+                      · Steamed Jasmine Rice<br><br>
+                    <b style="font-size: 1rem">Set 2 (£7.95):<br></b>
+                      · Papaya Salad<br>
+                      · Grilled pork served with spicy<br>
+                      sauce<br>
+                      · Sticky Rice<br><br>
+                    <b style="font-size: 1rem">Set 3 (£10.95):<br></b>
+                      · Fish Cake<br>
+                      · Spring Rolls<br>
+                      · Red Curry with Chicken<br>
+                      · Stir fried mixed vegetable<br>
+                      · Steamed Jasmine Rice<br><br>
+                    <b style="font-size: 1rem">Set 4 (£10.95):<br></b>
+                      · Pork and Prawn Toast<br>
+                      · Beef salad<br>
+                      · Massaman Chicken<br>
+                      · Pork with ginger and<br>
+                       mushroom<br>
+                      · Steamed Jasmine Rice<br><br>
+                    <b style="font-size: 1rem">Set 5 (£11.95):<br></b>
+                      · Papaya Salad<br>
+                      · Spring Rolls<br>
+                      · Beef Curry<br>
+                      · Chicken served with sweet and
+                      sour sauce<br>
+                      · Steamed Jasmine Rice<br><br>
+                    <b style="font-size: 1rem">Set Vegetarian (£7.95):<br></b>
+                      · Spring rolls<br>
+                      · Green Curry with vegetables<br>
+                      · Tofu with ginger<br>
+                      · Steamed Jasmine Rice
+                  </p>
+          </div>
+        </div>
+      </div>
 
-        <div id="drinks" class="col s12 text-center"></div>
+      <div id="dinner" class="col s12 text-center">
+        <div class="row">
+          <div class="col s12">
+            <ul class="submenutabs tabs" style="background-color: rgba(0,0,0,0); color: white !important;"">
+              <li class="tab col s4"><a href="#starters">Starters</a></li>
+              <li class="tab col s4"><a class="active" href="#mains">Mains</a></li>
+              <li class="tab col s4"><a href="#setmeals">Set Meals</a></li>                 
+            </ul>
+          </div>
+          <div class="container" id="starters">
+            <br><br>
+                <h1 class="menutitle">Starters</h1>
+                <p class="menutext">
+                <b style="font-size: 1rem">1. Chicken Satay (£4.75)<br></b>
+                Grilled marinated chicken fillet on the skewers<br>
+                <b style="font-size: 1rem">2. Spring Rolls - Vegetarian (£4.25)<br></b>
+                Deep-fried spring rolls stuffed with vegetables, glass noddles, fungi and spices. Served with sweet and sour.<br>
+                <b style="font-size: 1rem">3. Thai fish cakes (£5.75)<br></b>
+                Ground fish with red curry paste, fine beans and herbs. Served with sweet chilli sauce.<br>
+                <b style="font-size: 1rem">4. Fresh Spring Rolls (£5.50)/ Vegetarian(£4.50)<br></b>
+                Healthy option of herb salad with rice noodles and prawn or bean curd (V) wrapped in rice paper, served with sweet chilli sauce. <br>
+                <b style="font-size: 1rem">5. Goong Kaa Ti (£5.75)<br></b>
+                Deep fried prawns, coated with desiccated coconut, served with sweet chilli sauce.<br>
+                <b style="font-size: 1rem">6. Golden Pouch<br></b>
+                Pasty filled with meat, prawn and vegetables, deep fried and served with plum sauce.<br>
+                <b style="font-size: 1rem">7. Tao Hu Tord (£4.25)<br></b>
+                Deep-fried tofu dusted with garlic. Served with peanut sauce.<br>
+                <b style="font-size: 1rem">8. Moo Yang (£4.95)<br></b>
+                Grilled pork, sliced and served with spicy sauce and coriander.<br>
+                <b style="font-size: 1rem">9. Gai Hor Bay Toey<br></b>
+                Marinated cubes of chicken fillet wrapped in Bay Toey leaves, served with chilli sauce.<br>
+                <b style="font-size: 1rem">10. Vegetable Tempura<br></b>
+                A selection of vegetables coated in batter and deep fried until golden brown. Served with sweet chilli sauce.<br>
+                <b style="font-size: 1rem">11. Saye Kok<br></b>
+                Traditional Thai sausage, grilled and served with slices of ginger.<br>
+                <b style="font-size: 1rem">12. Nam Thai Platter - min order of 2ppl (£5.95 per person)<br></b>
+                Chicken Satay, Golden pouch, Som Tam, Spring Rolls and Fish Cakes.<br>
+                <h1 class="menutitle">Yum (Thai Salad)</h1>
+                <p class="menutext">
+                Yum can be served as a first or second course or part of a dinner spread. Thai salads are traditionally served in a bracingly tart and spicy dressing to waken the palate. We leave the level of spiciness up to you. 
+                <br><br>
+                <b style="font-size: 1rem">14. Papaya Salad (£6.95)<br></b>
+                A traditional Thai salad made with shredded green papaya, lightly pounded with spices in a mortar and pestle.<br>
+                <b style="font-size: 1rem">15. Seafood Salad (£11.50)<br></b>
+                Mixed seafood tossed in a dressing of lemon juice, fresh herbs and spices.<br>
+                <b style="font-size: 1rem">16. Yum Neua (£10.50)<br></b>
+                Spicy beef salad, made with grilled beef, cucumber, tomato, tossed in a sour & spicy dressing with herbs and spices.<br>
+                <b style="font-size: 1rem">17. Mango Salad (£6.50)<br></b>
+                Shredded mango with Nam Thai spicy sauce topped with cashew nuts.<br>
+                <b style="font-size: 1rem">18. Lab Moo (£8.50)<br></b>
+                Minced pork lightly blended with a dressing of lemon juice garlic, roasted rice powder, onion, lime juice and chilli<br>
+                <b style="font-size: 1rem">19. Salmon Namtok (£11.50)<br></b>
+                Slices of salmon with lime juice, chilli & roasted rice powder<br>
+                <h1 class="menutitle">Nam Soop (Soup)</h1>
+                <p class="menutext">
+                Soup can start a meal, be an entrée, or be a palate cleanser between a sharp tasting salad & a rich curry.
+                <br><br>
+                <b style="font-size: 1rem">20. Tom Kha Gai or Hed - Vegetarian (£4.50)<br></b>
+                Spicy coconut soup with chicken or vegetables.<br>
+                <b style="font-size: 1rem">21. Tom Yum Koon or Hed - (£5.50 / Vegetarian - £4.50)<br></b>
+                The Thai's favourite soup: a clear hot and sour broth with prawns or vegetables.<br>
+                <b style="font-size: 1rem">22. Po Taak - min order of 2 ppl (£5.50 per person)<br></b>
+                Spicy Thai soup cooked with seafood, lemongrass, galangal, lime leaves & chilli<br>
+                </p>
+          </div>
+          <div class="container" id="mains">
+            <div class="row col s12">
+                <h1 class="menutitle">Ahan Pad (Stir Fry)</h1>
+                <p class="menutext">
+                There will usually be a stir-fried dish on the table at a Thai meal, maybe two! All stir-fried dishes are prepared in the wok.
+                <br><br>
+                <b style="font-size: 1rem">23. Pad Bai Kha Pow - Chilli and Basil<br></b>
+                Stir fried with mixed peppers, French beans, chilli, sautéed in a savoury mixture of Thai sweet basil and spices.<br>
+                <b style="font-size: 1rem">24. Tod Khra Tiem Pik Thay<br></b>
+                Stir fried in garlic and black pepper.<br>
+                <b style="font-size: 1rem">25. Pad Met Mamuang<br></b>
+                Stir fried with cashew nuts, mixed peppers, mushroom and onion.<br>
+                <b style="font-size: 1rem">26. Pad Takhay Pik<br></b>
+                Stir fried with lemongrass and chilli.<br>
+                <b style="font-size: 1rem">27. Pad Pik Pow<br></b>
+                Stir fried with mixed peppers, onion, chilli paste and spices.<br>
+                <b style="font-size: 1rem">28. Pad Khing<br></b>
+                Stir fried with fresh ginger, onions and mushrooms.<br>
+                <b style="font-size: 1rem">29. Pad Prio Wan - Thai Sweet and Sour<br></b>
+                With tomato, peppers, pineapple, cucumber, and onion, sautéed in a Thai style sweet and sour sauce.<br>
+                <b style="font-size: 1rem">30. Pad Broccoli<br></b>
+                Stir fried with broccoli.<br>
+                <b style="font-size: 1rem">31. Nam Man Hoi<br></b>
+                Stir-fried with oyster sauce
+                <br>
+                <br>
+                All our stir-fry and curry dishes can be ordered with your choice of meat, bean curd or vegetables. Please specify your option at the time of ordering.
+                <br>
+                <br>
+                </p>
+                <h1 class="menutitle">Kari - Curry</h1>
+                <p class="menutext">
+                Curries form an important part of the Thai meal. Originally from India, curry has evolved into a rich stew with a hundred variations.
+                <br>
+                <br>
+                <b style="font-size: 1rem">32. Kaeng Paneang - Peneang Curry<br></b>
+                Dry curry with vegetables, coconut milk and Thai herbs.<br>
+                <b style="font-size: 1rem">33. Kaeng Khiew Wan - Sweet Green Curry<br></b>
+                This coconut milk based curry is considered the "Queen of curries", rich and satisfying. The sweet green curry is the perfect remedy for a cold winter evening. With bamboo shoots, mixed peppers and green beans simmered in coconut milk, Thai basil, lime leaves & assorted Thai spices. <br>
+                <b style="font-size: 1rem">34. Kaeng Massaman - Massaman Curry<br></b>
+                Southern-style curry, turmeric-infused and hearty, simmered with coconut milk, with potatoes and peanuts.<br>
+                <b style="font-size: 1rem">35. Kaeng Phed - Red Curry<br></b>
+                Cooked with coconut milk and bamboo shoots.<br>
+                <b style="font-size: 1rem">36. Kaeng Kari - Yellow Curry<br></b>
+                This is the mildest of curry cooked with potatoes and onion.<br>
+                <b style="font-size: 1rem">37. Kaeng Pa<br></b>
+                A very spicy jungle style curry, prepared with vegetables. (No coconut milk)<br>
+                <b style="font-size: 1rem">38. Kaeng Phed Pet Yang<br></b>
+                Roasted duck cooked in red curry with pineapple, vine tomato and grapes.<br>
+                <br>
+                <br>
+                Beef (£9.50)<br>
+                Chicken/Pork/Bean Curd (£8.50)<br>
+                Prawns/Mixed seafood (£11.50)<br>  
+                <br>
+                <h1 class="menutitle">Pak - Vegetable</h1>
+                <p class="menutext">
+                <b style="font-size: 1rem">65. Pad Pak Roam (£4.50)<br></b>
+                Stir fried mixed vegetables.<br>
+                <b style="font-size: 1rem">66. Pak Bung Fai Daeng (£5.95)<br></b>
+                Stir fried Morning Glory with garlic and chilli.<br>
+                <b style="font-size: 1rem">67. Pad Pak Cad Khao (£5.95)<br></b>
+                Stir fried Chinese leaves with mushroom and fresh chilli.<br>
+                <b style="font-size: 1rem">68. Pak Neung (£4.50)<br></b>
+                A healthy, low calorie option of steamed vegetables topped with oyster sauce.<br>                                                                    
+                </p>                      
+                <h1 class="menutitle">Thalay - Sea Foods</h1>
+                <p class="menutext">
+                <b style="font-size: 1rem">39. Pla Yum Mamuang (£12.00)<br></b>
+                Pan fried salmon topped with mango salsa.<br>
+                <b style="font-size: 1rem">40. Chu Chi Pla (£16.00)<br></b>
+                Steamed whole sea bass topped with red curry sauce.<br>
+                <b style="font-size: 1rem">41. Hoi Malangphu (£8.50)<br></b>
+                Stir fried mussel with lemongrass, chill and coconut milk.<br>
+                <b style="font-size: 1rem">42. Pla Kratiem Sot (£12.00)<br></b>
+                Fried red snapper fillets drenched with our garlic, and peppercorn sauce.<br>
+                <b style="font-size: 1rem">43. Pla Tord Khing Sot (£12.00)<br></b>
+                Fried red snapper fillets smothered in ginger, onion, garlic, and mushroom.<br>
+                <b style="font-size: 1rem">44. Pad Ped Thalay (£12.75)<br></b>
+                Mixed seafood wok seared in a hot and spicy sauce.<br>
+                <b style="font-size: 1rem">45. Pla Neung Ma Nao - Lime Sea Bass (£16.00)<br></b>
+                Steamed whole sea bass with lemongrass, lime juice and crushed chilli, topped with lime sauce.<br>
+                <b style="font-size: 1rem">46. Pla Tord Bai Krapaow (£12.00)<br></b>
+                Crispy fried red snapper fillets topped with chilli and Thai basil.<br>
+                <b style="font-size: 1rem">47. Pla Nam Mac-kham (£12.00)<br></b>
+                Fried red snapper fillets topped with spicy tamarind sauce.<br>
+                <b style="font-size: 1rem">48. Hor Mok - Spicy Steamed Fish (£12.00)<br></b>
+                In this classic dish, the flavour of fish is combined with coconut milk, chilli and spices then steamed to make each serving a culinary treat.<br>
+                <b style="font-size: 1rem">49. Fried Soft Shell Crab with Garlic and Peppercorn (£12.50)<br></b>
+                <b style="font-size: 1rem">50. Hoyshell Pad Pik Pow (£12.50)<br></b>
+                Scallops sautéed in chilli and sweet basil sauce.<br><br>
+                </p>
+                <h1 class="menutitle">Ahan Pi Sait - Specialties</h1>
+                <p class="menutext">
+                <b style="font-size: 1rem">51. Weeping Tiger (£12.50)<br></b>
+                Grilled sirloin steak, sliced and served with spicy nam dip.<br>
+                <b style="font-size: 1rem">52. Nam Thai Chicken (£9.50)<br></b>
+                Grilled Chicken fillets marinated with lemon grass & chilli.<br>
+                <b style="font-size: 1rem">53. Pet Yang (£12.50)<br></b>
+                Roasted duck breast smothered with honey sauce.<br>
+                <b style="font-size: 1rem">54. Lamb Massaman (£14.50)<br></b>
+                Lamb shank slowly cooked in Massaman curry, with potato & peanuts.<br>
+                <b style="font-size: 1rem">55. Nam Thai Mackerel (£9.95)<br></b>
+                Grilled mackerel fillets marinated with lemongrass and chilli.<br>
+                <b style="font-size: 1rem">56. Goong Pao (£14.95)<br></b>
+                Grilled butterfly king prawns, topped with chilli sauce.<br>
+                <b style="font-size: 1rem">57. Gai Yang (£12.00)<br></b>
+                Marinated spatchcocked poussin in honey, grounded herbs and spices, then grilled until golden brown, served with chilli sauce.<br>
+                </p>
+                <h1 class="menutitle">Khao Leh Gwethiow - Rice and Noodles</h1>
+                <p class="menutext">
+                <b style="font-size: 1rem">58. Steamed Jasmine Scented Rice (£2.50)<br></b>
+                <b style="font-size: 1rem">59. Coconut Rice (£3.00)<br></b>
+                Jasmine Rice cooked in Coconut Milk.<br>
+                <b style="font-size: 1rem">60. Egg Fried Rice (£3.00)<br></b>
+                <b style="font-size: 1rem">61. Special Fried Rice (£4.50)<br></b>
+                Fried rice with chicken, raisins, cashew nuts and prawns.<br>
+                <b style="font-size: 1rem">62. Glutinous or Sticky Rice (£3.00)<br></b>
+                <b style="font-size: 1rem">63. Pad Thai Koong (£6.45 / Vegetarian - £5.45)<br></b>
+                This is considered the unofficial "national dish" of Thailand. Pad Thai is a soothing stir fried mixture of egg, rice noodles, crisp bean sprouts, spring onions and prawns in a savoury sauce topped with crushed peanuts and lemon.<br>
+                <b style="font-size: 1rem">64. Pad Siew Yew (£5.45)<br></b>
+                Rice noodles stir-fried with egg, vegetables and soy sauce.<br>
+                </p>                                                  
+            </div>
+          </div>
+          <div class="container col s12" id="setmeals">
+                <h1 class="menutitle">Set Meals</h1>
+                <p class="menutext">                      
+                <b style="font-size: 1rem">Set A - Minimum order for 2 - £18 per person<br></b>
+                <b style="font-size: 1rem">Starters<br></b>    
+                Chicken Satay and Spring rolls.
+                <br>
+                <b style="font-size: 1rem">Main Course<br></b> 
+                Sweet & Sour Pork, Red or Green Chicken Curry, Stir Fired Beef with Oyster Sauce
+                <br>
+                Pad Thai Noodle, Egg Fried Rice. 
+                <br>
+                <b style="font-size: 1rem">Dessert<br></b> 
+                Vanilla Ice Cream
+                <br>
+                <b style="font-size: 1rem">Set B - Minimum order for 3 - £22 per person<br></b> 
+                <b style="font-size: 1rem">Starters<br></b> 
+                Satay Chicken, Golden Pouch, Vegetable Tempura and Spring Rolls.
+                <b style="font-size: 1rem">Main Course<br></b>
+                Red or Green Chicken Curry
+                <br>
+                Stir Fired Beef with Chilli Paste
+                <br>
+                Stir Fried Prawns with Oyster Sauce
+                <br>
+                Stir Fried Pork with Garlic & Pepper corns
+                <br>
+                Stir Fried Mixed vegetables
+                <br>
+                Egg Fried Rice
+                <br>
+                <b style="font-size: 1rem">Desserts<br></b> 
+                Banana Fritter with Vanilla Ice Cream
+                <br>
+                <b style="font-size: 1rem">Set C - Minimum order for 4 - £30 per person<br></b> 
+                <b style="font-size: 1rem">Starters<br></b> 
+                Fish Cakes, Prawn Tempura, Spring Rolls and Chicken Satay
+                <br>
+                <b style="font-size: 1rem">Second Course<br></b>   
+                Mixed Seafood Soup
+                <br>
+                <b style="font-size: 1rem">Main Course<br></b>  
+                Stir Fried Pork with Chilli Paste
+                <br>
+                Red/Green or Massaman Curry with Chicken
+                <br>
+                Red Tialapia Fillets with Chilli & Basil
+                <br>
+                Stir Fried mixed Seafood
+                <br>
+                Stir Fried Beef with Oyster Sauce
+                <br>
+                Steam Mixed Vegetables
+                <br>
+                Special Fried Rice
+                <br>
+                <b style="font-size: 1rem">Dessert<br></b> 
+                Deep Fried Ice Cream   
+              </div> 
+        </div>
+      </div>
+
+
+      <div id="dessert" class="col s12 text-center">
+        <h1 class="menutitle">Desserts</h1>
+      </div>
+
+      <div id="drinks" class="col s12 text-center">
+        <div class="row">
+          <div class="col s12">
+            <ul class="submenutabs tabs" style="background-color: rgba(0,0,0,0); color: white !important;">
+              <li class="tab col s6"><a href="#winelist">Wine list</a></li>
+              <li class="tab col s6"><a href="#beverages">Beverages</a></li>                 
+            </ul>
+          </div>
+        </div>
+        <div class="container" id="winelist">
+              <h1 class="menutitle">House Wine (Bottle £14.50 / 250ml Glass £4.95)</h1>
+              <p class="menutext">
+              <b style="font-size: 1rem">1. La Fleur Cabernet Sauvignon<br></b> 
+              A full-bodied, yet soft, fruity red wine, slightly tannic, subtle and well balanced.<br><br> 
+              <b style="font-size: 1rem">2. La Fleur Sauvignon Blanc<br></b> 
+              A fuller fruited wine, which delivers a more gentle, sweeter flabour with a clean palate.<br><br>
+              <b style="font-size: 1rem">3. La Poesie Rosato<br></b> 
+              A light refreshing rosé with a salmon pink colour and copper overtones. The distinct vinious bougqet is backed up with subtle dry flavours of red summer fruits.<br><br> 
+              </p> 
+              <h1 class="menutitle">Champagne</h1>
+              <p class="menutext">
+              <b style="font-size: 1rem">4. Cuperly Brut Reserve N/V (Bottle £39.95)<br></b> 
+              Made from a blend of Chardonnay and Pinot Noir grapes giving this champagne freshness combined with richness and complexity<br><br>
+              <b style="font-size: 1rem">5. Louis Roederer Brut Premier N/V (Bottle £63.60)<br></b> 
+              Pale golden colour with delicate, persistant beading. Rich yet subtle bouquet with hints of hawthorn, almonds and toast, clean attack and creamy structure to finsih. <br><br>
+              </p>
+              <h1 class="menutitle">Sparkling Wines</h1>
+              <p class="menutext">
+              <p class="menutext">
+              <b style="font-size: 1rem">6. Veuve De Lalande (£18.00)<br></b> 
+              Brilliant and pale gold, fine bubbles and delicate nose with floral aromas, crisp finish with a hint of dry fruits.<br><br>
+              <b style="font-size: 1rem">7. Villalta Prosecco D.O.C Extra Dry (£19.50)<br></b> 
+              Light crisp, with a fresh citrus finish, perfect wine for all occasions.<br><br>
+              <h1 class="menutitle">Red Wine</h1>
+              <p class="menutext">
+              <b style="font-size: 1rem">8. Cote Du Rhone, La Dive - France (£18.95)<br></b> 
+              Well-balanced wine, powerful with blended tannins, a bouquet of red and black fruits with a spicy fruit finish.<br><br>
+              <b style="font-size: 1rem">9. Le Versant, Pinot Noir - France (£18.95)<br></b> 
+              Bright red with blue hues, this Pinot Noie has all the typical traits, smooth tannins offset with a gentle cranberry flavour, then the finish is long and responsive.<br><br>
+              <b style="font-size: 1rem">10. Band of Brothers, Pinotage - South Africa (£15.80)<br></b> 
+              A rich, full-bodied and ruby coloured wine, from the famous West Cape region made only from the finest selected grapes.<br><br>
+              <br><br>
+              <p class="menutext">
+              <b style="font-size: 1rem">11. Sol Di Puglia, Negroamaro/Primitivo - Italy (£15.50)<br></b> 
+              Deep ruby red in colour with a full aroma of ripe black berry fruits. Dry and intense on the palate with a subtle btter aftertaste.<br><br>
+              <b style="font-size: 1rem">12. Aspaldi Tinto Tempranillo - Spain (£15.90)<br></b>
+              This classic Rioja grape is cherry red in appearance. The nose is fruity and is enhanced with hints of vanilla and toast, which develops into a round and polished palate. It fills the mouth without being aggressive with smooth round tannins.
+              <br><br>
+              <b style="font-size: 1rem">13. Big Block, Shiraz - Australia (£17.40)<br></b>
+              Dark plum in colour. The wine shows dark berries on the nose with subtle hints of oak and mint chocolate aromas. A fruit-driven palate shows luscious cherry and lingering berry flavours. 
+              <br><br>
+              <b style="font-size: 1rem">14. Portal Real, Merlot Estate Bottled - Chile (£17.30)<br></b> 
+              Exceeding expectations wine with rich flavours of ripe cherries and berries, topped with chocolate, wood and intrigueing spices. Juicy finish.<br><br>
+              <b style="font-size: 1rem">15. High Altitude, Malbec/Syrah - Argentina (£18.55)<br></b> 
+              Brilliant ruby colour with hints of purple, with wild red ripe fruits, cassis, black cherry fruit with some spices on the nose, with a touch of vanilla, sweet round, velvet texture to finish.<br><br>
+              </p>
+              <h1 class="menutitle">White Wine</h1>
+              <p class="menutext">
+              <b style="font-size: 1rem">16. Muscadet Sure Lie, Domaine Des Noelles - France (£18.95)<br></b> 
+              A wonderful nose with matured and sweet fruit of apricot and peach. Delicate, fresh and lively on the palate with persistent freshness<br><br>
+              <b style="font-size: 1rem">17. Big Block, Chardonnay - Australia (£15.25)<br></b> 
+              Cool fresh grapefruit and honeynose which copies itself to the palate, gentle acidity of lemon to finish the length.<br><br>
+              <b style="font-size: 1rem">18. Gavi Antasio, Estate Bottled - Italy (£19.75)<br></b> 
+              A fragrant bouquet, refreshing acidity, with a dry palate, aromatic citrus flavours and a complex finish with hints of almonds.<br><br>
+              <b style="font-size: 1rem">19. Riesling Elite QBA, Rhine - Germany (£17.55)<br></b> 
+              Firm acidity and complexity of green apple flavours, suitable companion for asian-style food.<br><br>
+              <b style="font-size: 1rem">20. Hidden River Chenin Blanc - South Africa (£15.95)<br></b> 
+              Green and yellowy hues offer a wine with gooseberry fruit nose and citrus flavours, dry, clean and fresh, excellent balance of fruit and acidity.<br><br>
+              <b style="font-size: 1rem">21. Cantus, Sauvignon - Chile (£15.95)<br></b> 
+              Orchard fruits with a tantalising spicy twist, dryish, clean and fresh. Pale yellow in colour with aromas of apricots, light honey and showing well balanced acidity on the finish.<br><br>
+              <b style="font-size: 1rem">22. Terre Di Passione, Pinot Grigio - Italy (£15.35)<br></b> 
+              Intense bouquet of fresh fruit such as green apple and pear, perfectyl balanced, supple and fresh.<br><br>
+              </p>
+        </div>
+        <div class="container" id="beverages">
+        <h1 class="menutitle">Spirits, Liquers, Ports & Beers</h1>
+          <div class="row col s12">
+            <div class="container col s6">
+              <h1 class="menutitle submenutitle">Spirits 25ml</h1>
+              <p class="menutext">
+              Vodka - £3.30<br>
+              Gin - £3.30<br>
+              Bacardi - £3.30<br>
+              Whisky - £3.30<br>
+              Mascallan Malt - £6.50<br>
+              </p>
+              <h1 class="menutitle submenutitle">Spirits 50ml</h1>
+              <p class="menutext">
+              Campari - £3.50<br>
+              Martini - £3.50<br>
+              Cinzano - £3.50<br>                  
+              </p>
+              <h1 class="menutitle submenutitle">Aperitifs/Liquers 25ml</h1>
+              <p class="menutext">
+              Cointreau - £3.50<br>
+              Drambuie - £3.50<br>
+              Grand Marnier - £3.50<br>
+              Tia Maria - £3.50<br>
+              Benedictine - £3.50<br>
+              Maliby - £3.50<br>
+              Baileys - £3.50<br>
+              </p>
+            </div>
+            <div class="container col s6">
+              <h1 class="menutitle submenutitle">Cognac 25ml</h1>
+              <p class="menutext">
+              Courvoisier - £3.90<br>
+              Remy Martin V.S.O.P - £3.90<br>
+              Armagnac - £3.90<br>
+              </p>
+              <h1 class="menutitle submenutitle">Sherry 50ml</h1>
+              <p class="menutext">
+              Fino-Tio Pepe - £2.75<br>
+              Harvey's Amontillado - £2.75<br>
+              Harvey's Bristol Cream - £2.75<br>
+              </p>
+              <h1 class="menutitle submenutitle">Port 50ml</h1>
+              <p class="menutext">
+              Noval Ruby - £2.95<br>
+              Noval Late Bottled Vintage - £3.75<br>
+              </p>
+              <h1 class="menutitle submenutitle">Beers & Lagers</h1>
+              <p class="menutext">
+              Meister Pils 1/2 pint - £2.00<br>
+              Meister Pils pint - £4.00<br>
+              Singha Thai Beer - £3.75<br>
+              Chang beer - £3.75<br>
+              </p>
+              <br>
+            </div>
+        <h1 class="menutitle">Coffee, Tea, Mixers & Minerals</h1>
+          <div class="row col s12">
+            <div class="container col s6">
+            <br>
+              <p class="menutext">
+              Liqueur/Spirit Coffee - £3.75<br>
+              Tea - £1.50<br>
+              Coffee - £1.50<br>
+              Jasmine Tea, per pot - £1.50<br>
+              Floater Coffee - £1.75<br>
+              </p>
+              <h1 class="menutitle submenutitle">Mineral Water</h1>
+              <p class="menutext">
+              Still/Sparkling 330ml - £1.55<br>
+              Still/Sparkling 750ml - £3.60<br>
+            </div>
+            <div class="container col s6">
+              <h1 class="menutitle submenutitle">Soft Drinks</h1>
+              <p class="menutext">
+              Coca Cola/Diet 200ml - £1.95<br>
+              Orange/Pineapple/Apple 200ml - £1.95<br>
+              Lemonade 200ml - £1.95<br>
+              Bitter Lemon 200ml - £1.95<br>
+              Tonic Water/Slimline 200ml - £1.95<br>
+              Appletiser 275ml - £2.50<br>
+              </p>
+            </div>
+          </div>
+
+          </div>              
+        </div>
+      </div>
+
+
 
           </div>
         </div>
 
    
-  
 
 
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-
-
-
 
 </div>
 
@@ -110,26 +596,26 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text footertext">NamThai Bromley</h5>
-                <p class="grey-text text-lighten-4 footertext2">Make sure to check out the rest of our website or to write a review on tripadvisor to the right here. If you have any questions/queries, make sure to contact us at namthaibromley@gmail.com </p>
+                <h5 class="footertext">NamThai Bromley</h5>
+                <p class="footertext2">Make sure to check out the rest of our website or to write a review on tripadvisor to the right here. If you have any questions/queries, make sure to contact us at namthaibromley@gmail.com </p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text footertext">Rest of website:</h5>
+                <h5 class="footertext">Rest of website:</h5>
                 <ul class="footertext2">
-                  <li><a class="grey-text text-lighten-3" href="../index">Home</a></li>
-                  <li><a class="grey-text text-lighten-3" href="aboutus">About us</a></li>
-                  <li><a class="grey-text text-lighten-3" href="contactus">Contact us</a></li>
-                  <li><a class="grey-text text-lighten-3" href="menu">Menu</a></li>
-                  <li><a class="grey-text text-lighten-3" href="events">Events</a></li>
-                  <li><a class="grey-text text-lighten-3" href="gallery">Gallery</a></li>
+                  <li><a class="footertext2" href="../index">Home</a></li>
+                  <li class="active"><a class="footertext2" href="aboutus">About us</a></li>
+                  <li><a class="footertext2" href="contactus">Contact us</a></li>
+                  <li><a class="footertext2" href="menu">Menu</a></li>
+                  <li><a class="footertext2" href="notice">Notice</a></li>
+                  <li><a class="footertext2" href="gallery">Gallery</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
+            <div class="container footertext">
             © 2017 Copyright
-            <a class="grey-text text-lighten-4 right" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1637597-d3785437-Reviews-Nam_Thai-Bromley_Greater_London_England.html">TripAdvisor</a>
+            <a class="footertext right" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1637597-d3785437-Reviews-Nam_Thai-Bromley_Greater_London_England.html">TripAdvisor</a>
             </div>
           </div>
         </footer>
