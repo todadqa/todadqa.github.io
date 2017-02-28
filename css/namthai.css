@@ -14,8 +14,8 @@
 
 @font-face {
   font-family: 'Raleway-bold';
-  src: url('../fonts/Raleway/Raleway-bold.ttf')  format('truetype');
-  src: local('Raleway-bold'), local('Raleway-bold'), url('../fonts/Raleway/Raleway-bold.ttf') format('truetype');
+  src: url('../fonts/Raleway/Raleway-Bold.ttf')  format('truetype');
+  src: local('Raleway-bold'), local('Raleway-bold'), url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
  }
 
 #title {
