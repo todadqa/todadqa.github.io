@@ -12,8 +12,11 @@
 <script src="../js/materialize.js"></script>
 <script src="../js/materialize.min.js"></script>
 <script src="../js/namthai.js"></script>
+<link rel="stylesheet" href="../ism/css/my-slider.css"/>
+<link rel="stylesheet" href="../css/w3.css">
+<script src="../ism/js/ism-2.2.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta name="viewport" content="width=device-width, height=device-height initial-scale=1">
-
 </head>
 
 <body class="light-green lighten-5">
@@ -31,10 +34,10 @@
       <ul class="center hide-on-med-and-down">
         <li><a href="../index">Home</a></li>
         <li><a href="aboutus">About Us</a></li>
-        <li class="active"><a href="contactus">Contact Us</a></li>
+        <li><a href="contactus">Contact Us</a></li>
         <li><a href="menu">Menu</a></li>
         <li><a href="notice">Notice</a></li>
-        <li><a href="gallery">Gallery</a></li>
+        <li class="active"><a href="gallery">Gallery</a></li>
       </ul>
       </div>
       </div>
@@ -42,10 +45,10 @@
       <ul class="side-nav" id="slide-out">
         <li><a href="../index">Home</a></li>
         <li><a href="aboutus">About Us</a></li>
-        <li class="active"><a href="contactus">Contact Us</a></li>
+        <li><a href="contactus">Contact Us</a></li>
         <li><a href="menu">Menu</a></li>
         <li><a href="notice">Notice</a></li>
-        <li><a href="gallery">Gallery</a></li>
+        <li class="active"><a href="gallery">Gallery</a></li>
       </ul>
 </div>
 
@@ -56,23 +59,116 @@
         <b><h1 class="header col s3 center toptext">NamThai Gallery</h1>
         <div class="row center">
           <h5 class="header col s6 push-s3" style="color:#e0e0e0;">Please see our Restaurant Gallery below:</h5></b>
+          <div class="row col s12">
+          <br>
+          <a class="scrollbutton" style="color: #e0e0e0;" href="#">Below:</a>
+          </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div class="container col s12" id="mainpart">
   <div class="container col s12" id="mainparttext">
     <h1 class="header s10 center headtext">Gallery</h1>
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 subtext" id="stupid">Working progress..</h5>
-        </div>
+
+<!-- Start of gallery html -->
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthaife.jpg" style="width:100%">
       </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai117.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai11b.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai10f.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai100.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai131.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai136.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai13b.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pictures/namthai143.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">>
+        <img src="../pictures/namthaie2.jpg" style="width:100%">
+      </div>
+
+      <a class="slprev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="slnext" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(1)" title="slide 1"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(2)" title="slide 2"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(3)" title="slide 3"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(4)" title="slide 4"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(5)" title="slide 5"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(6)" title="slide 6"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(7)" title="slide 7"></a> 
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(8)" title="slide 8"></a>
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(9)" title="slide 9"></a>
+        <a href="javascript:void(0)" class="dot" onclick="currentSlide(10)" title="slide 10"></a>
+      </div>
+
+
+      <script>      
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length} ;
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+           dots[i].classList.remove("slideractive");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].classList.add("slideractive");
+      }
+      </script>
+
+<!-- End of gallery html -->
+
   </div>
-</div>
-
-
 </div>
 
 <footer id="footer" class="page-footer">
@@ -97,7 +193,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2017 Copyright
+            &copy; 2017 Copyright
             <a class="grey-text text-lighten-4 right" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1637597-d3785437-Reviews-Nam_Thai-Bromley_Greater_London_England.html">TripAdvisor</a>
             </div>
           </div>
