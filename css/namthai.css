@@ -180,8 +180,8 @@ b {
 }
 
 .background-img { 
-    height: 1100px; 
-    background: url("../pictures/namthai117.jpg") no-repeat center center fixed; 
+    height: 110vh; 
+    background: url("../pictures/namthai117.jpg") no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
