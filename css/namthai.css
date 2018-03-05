@@ -28,6 +28,7 @@
 
 #stupid {
 	color: black !important;
+	font-size: 1.2rem;
 }
 
 .titletop {
@@ -173,6 +174,10 @@ ul, li, a {
 	width: 50%%;
 	margin: auto;
 
+}
+
+.smallprint {
+	font-size: 0.5rem;
 }
 
 b {
